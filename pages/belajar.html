@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Belajar - Pasti Jago</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>🚀 Pasti Jago</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="belajar.html" class="nav-link">Materi Belajar</a></li>
+                <li><a href="latihan.html" class="nav-link">Latihan Code</a></li>
+                <li><a href="tentang.html" class="nav-link">Tentang</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="learning-materials" style="padding: 100px 20px; background: white;">
+        <div class="container">
+            <h1 style="text-align: center; margin-bottom: 3rem;">📚 Materi Belajar</h1>
+            
+            <div class="materials-grid">
+                <div class="material-card">
+                    <h3>🅰️ HTML Dasar</h3>
+                    <ul>
+                        <li>Struktur HTML</li>
+                        <li>Tag & Element</li>
+                        <li>Form & Input</li>
+                        <li>Semantic HTML</li>
+                    </ul>
+                    <button class="btn-primary" onclick="bukaMateri('html')">Mulai Belajar</button>
+                </div>
+                
+                <div class="material-card">
+                    <h3>🎨 CSS Fundamental</h3>
+                    <ul>
+                        <li>Selector & Properties</li>
+                        <li>Box Model</li>
+                        <li>Flexbox & Grid</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                    <button class="btn-primary" onclick="bukaMateri('css')">Mulai Belajar</button>
+                </div>
+                
+                <div class="material-card">
+                    <h3>⚡ JavaScript Basic</h3>
+                    <ul>
+                        <li>Variabel & Tipe Data</li>
+                        <li>Function & Scope</li>
+                        <li>DOM Manipulation</li>
+                        <li>Event Handling</li>
+                    </ul>
+                    <button class="btn-primary" onclick="bukaMateri('js')">Mulai Belajar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function bukaMateri(materi) {
+            alert(`Membuka materi: ${materi.toUpperCase()}`);
+            // Di sini bisa redirect ke halaman materi detail
+        }
+    </script>
+</body>
+</html>

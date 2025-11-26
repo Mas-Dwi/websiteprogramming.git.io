@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasti Jago - Belajar Programming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>🚀 Pasti Jago</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="pages/belajar.html" class="nav-link">Materi Belajar</a></li>
+                <li><a href="pages/latihan.html" class="nav-link">Latihan Code</a></li>
+                <li><a href="pages/tentang.html" class="nav-link">Tentang</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Belajar Programming <span class="highlight">Pasti Jago!</span></h1>
+            <p>Platform belajar coding dari nol hingga mahir. Gratis dan terbuka untuk semua.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="mulaiBelajar()">Mulai Belajar Sekarang</button>
+                <button class="btn-secondary" onclick="lihatMateri()">Lihat Materi</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="code-editor">
+                <div class="editor-header">
+                    <div class="window-controls">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <span class="file-name">script.js</span>
+                </div>
+                <div class="editor-content">
+                    <pre><code>// Welcome to Pasti Jago!
+function belajarProgramming() {
+    console.log("🎉 Selamat datang!");
+    return "Kamu pasti jago!";
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Kenapa Pilih <span class="highlight">Pasti Jago?</span></h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Materi Lengkap</h3>
+                    <p>Dari HTML dasar hingga framework modern</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Praktik Langsung</h3>
+                    <p>Belajar dengan project nyata dan latihan code</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Komunitas Aktif</h3>
+                    <p>Diskusi dan berbagi dengan developer lain</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Gratis Selamanya</h3>
+                    <p>Akses semua materi tanpa biaya</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Path -->
+    <section class="learning-path">
+        <div class="container">
+            <h2>Roadmap Belajar</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>🎯 Level 1: Fundamental</h3>
+                        <ul>
+                            <li>HTML & CSS Dasar</li>
+                            <li>JavaScript Basic</li>
+                            <li>Git & GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>⚡ Level 2: Intermediate</h3>
+                        <ul>
+                            <li>JavaScript Lanjutan</li>
+                            <li>React.js / Vue.js</li>
+                            <li>API Integration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>🔥 Level 3: Advanced</h3>
+                        <ul>
+                            <li>Fullstack Development</li>
+                            <li>Database & Deployment</li>
+                            <li>Best Practices</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Pasti Jago. Dibuat dengan ❤️ untuk developer Indonesia</p>
+            <div class="social-links">
+                <a href="#" class="social-link">GitHub</a>
+                <a href="#" class="social-link">Discord</a>
+                <a href="#" class="social-link">YouTube</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
